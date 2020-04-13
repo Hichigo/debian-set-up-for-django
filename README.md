@@ -56,7 +56,7 @@ Build from source python 3.7, install with prefix to ~/.python folder:
 
 ```
 wget https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz ; \
-tar xvf Python-3.8.2 ; \
+tar xvf Python-3.8.* ; \
 cd Python-3.8.2 ; \
 mkdir ~/.python ; \
 ./configure --enable-optimizations --prefix=/home/www/.python ; \
